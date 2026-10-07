@@ -71,7 +71,7 @@ function QuestionComponent({
       <div className="flex justify-center">
         <div className="max-w-lg w-full h-full bg-white rounded-xl shadow-md border border-gray-200 p-8">
           <div>
-            <ProgressBar current={3} max={5} />
+            <ProgressBar current={qnum} max={totalq} />
           </div>
           <div>
             <h1 className="mb-4 text-gray-800 text-2xl font-bold">
